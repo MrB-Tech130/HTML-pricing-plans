@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pricing plans</title>
+</head>
+
+<body style="background-color: rosybrown;">
+
+    <style>
+        .pricing-cards {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .card {
+            width: 200px;
+            padding: 25px 20px;
+            border-radius: 20px;
+            background: palegreen;
+            border: 1px solid white;
+            color: black;
+        }
+
+        .card button {
+            width: 90px;
+            padding: 10px;
+            border: 1.5px solid black;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+        }
+
+        .card button:hover {
+            background: moccasin;
+            color: white;
+            border-color: black;
+        }
+
+        .card ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card li {
+            font-size: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card li::before {
+            content: "✓";
+            color: black;
+            font-weight: bold;
+        }
+
+        .card-2 {
+            width: 200px;
+            padding: 25px 20px;
+            border-radius: 20px;
+            background: orange;
+            border: 1px solid white;
+            color: black;
+        }
+
+        .card-2 button {
+            width: 90px;
+            padding: 10px;
+            border: 1.5px solid black;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+        }
+
+        .card-2 button:hover {
+            background: moccasin;
+            color: white;
+            border-color: black;
+        }
+
+        .card-2 ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card-2 li {
+            font-size: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card-2 li::before {
+            content: "✓";
+            color: black;
+            font-weight: bold;
+        }
+
+        .card-3 {
+            width: 240px;
+            padding: 25px 20px;
+            border-radius: 20px;
+            background: green;
+            border: 1px solid white;
+            color: black;
+        }
+
+        .card-3 button {
+            width: 90px;
+            padding: 10px;
+            border: 1.5px solid black;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            margin-bottom: 20px;
+
+        }
+
+        .card-3 button:hover {
+            background: moccasin;
+            color: white;
+            border-color: black;
+        }
+
+        .card-3 ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .card-3 li {
+            font-size: 12px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .card-3 li::before {
+            content: "✓";
+            color: black;
+            font-weight: bold;
+        }
+    </style>
+    <center>
+        <section style="
+          background-color: paleturquoise; 
+          border-radius: 15px; 
+          align-items: center;
+          padding: 8px;">
+
+            <nav>
+                <div style="text-align: left;">
+                    <a href="#"><strong style="
+           font-family: cursive;
+            font-size: 28px;">Mr B Tech</strong></a> |
+                    <a href="#">Pricing</a> |
+                    <a href="#">Features</a> |
+                    <select style="border: none;
+                    border-bottom: solid 2px;
+                    cursor: pointer;
+                    background-color: paleturquoise;">
+                        <option> <a href="#">Uses cases</a>
+                        </option>
+                        <option><a href="#">contact us</a></option>
+                        <option><a href="#">FAQs</a></option>
+                        <option> <a href="#">Company profile</a></option>
+                    </select>
+                </div>
+
+                <div style="text-align: right;">
+                    <button style="
+                    background-color: burlywood;
+                    border-radius: 8px;"><a href="#">Sign in</a></button>
+                    <button style="
+                    background-color: green;
+                    border-radius: 8px;
+                    "><a href="#">Get Started</a></button>
+                </div>
+            </nav>
+
+            <hr>
+
+            <div style="text-align: center;">
+                <h1 style="text-align: center;">Pricing plans</h1>
+                <p>Start with Ai featatures that will help your company scale faster</p>
+                <label for="text">Bil Monthly</label>
+                <input type="radio" id="Monthly" checked>
+                <label for="text">Bil Annually (10%) </label>
+            </div>
+
+
+            <br>
+            <br>
+            <hr>
+            <div class="pricing-cards">
+                <div class="card">
+                    <h1>Free plan</h1>
+                    <p>Free plan for all users.</p>
+                    <button> <a href="#">Get started</a></button>
+                    <ul>
+                        <li> 2 Workshop</li>
+                        <li>10 Collaborators</li>
+                        <li>Unlimited Data</li>
+                        <li>Unofied Analytics</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="card-2">
+                    <p> <strong style="font-size: 50px;">$15</strong> <span style="font-size: ;">/month</span></p>
+                    <p>Idea for small business</p>
+                    <button> <a href="#">Get started</a></button>
+                    <ul>
+                        <li>Unlimited workspace</li>
+                        <li>Unlimited collaboration</li>
+                        <li>15GB data storage</li>
+                        <li>Unlimited Analytics</li>
+                        <li>Mobile app access</li>
+                    </ul>
+                </div>
+                <br>
+                <div class="card-3">
+                    <p><strong style="font-size: 50px;">$25</strong> <span>/month</span></p>
+                    <p>Work best for enterprices companies.</p>
+                    <button> <a href="#">Get started</a></button>
+                    <ul>
+                        <li>Unlimited workspace</li>
+                        <li>Unlimited collaboration</li>
+                        <li>25GB data storage</li>
+                        <li>Unlimited Analytics</li>
+                        <li>Mobile app access</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <footer>
+                &#169 Abdulbasit Okikiola
+            </footer>
+        </section>
+    </center>
+</body>
+
+</html>
